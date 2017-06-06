@@ -1,0 +1,7 @@
+.*
+!/.gitignore
+*.py[cod]
+*.pickle
+*.json
+*.err
+data/temperature_humidity.txt
