@@ -114,10 +114,10 @@ def main():
             write_spreadsheet([dt.now().strftime('%Y-%m-%d %H:%M'),"{0:.2f}".format(fahr),"{0:.2f}".format(humidity)])
 
    except KeyboardInterrupt:
-      pass
+      print "Quitting..."
+      lcd.lcd_byte(0x01, lcd.LCD_CMD)
    finally:
       # clean up
-      lcd.lcd_byte(0x01, lcd.LCD_CMD)
       GPIO.cleanup()
 
 if __name__ == "__main__":
