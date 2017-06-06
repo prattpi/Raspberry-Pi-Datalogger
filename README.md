@@ -1,7 +1,7 @@
 # pi-env-monitor
 Raspberry Pi monitor for environmental conditions in archival storage, using the DHT22 sensor for temperature and humidity data collection.
 
-<img src="https://github.com/prattpi/pi-env-monitor/blob/master/images/monitor.jpg?raw=true" alt="Pi monitor"> 
+<img src="https://github.com/prattpi/pem-pi/blob/master/images/monitor.jpg?raw=true" alt="Pi monitor"> 
 
 ## Supplies
 You will need the following materials:
